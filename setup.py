@@ -10,7 +10,7 @@ with open(path.join(here, 'requirements.txt'), encoding='utf-8') as f:
 
 install_requires = [x.strip() for x in all_reqs if 'git+' not in x]
 
-# Starts here
+# App starts here
 setup(
     name='SpiderKeeper',
     version=__version__,
